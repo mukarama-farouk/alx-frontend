@@ -70,10 +70,7 @@
 
     --transition-duration: .3s;
     --transition-cubic-bezier: cubic-bezier(0.17, 0.67, 0, 1.01);
-
-
-
-    
+ 
 }
 
 *,
@@ -333,6 +330,7 @@ a:active{
 .section-title{
     font-family: var(--font-family-title);
     font-size: var(--font-size-xx-large);
+    font-weight: var(--font-weight-bold);
     margin: var(--section-title-margin);
     color: var(--section-title-color);
 }
@@ -396,7 +394,6 @@ ul.row{
     margin-right: auto;
 }
 
-
 .footer-copyright{
     margin: 0;
     font-size: var(--font-size-small);
@@ -406,7 +403,6 @@ ul.row{
 .footer ul{
     text-align: right;
 }
-
 
 .footer-address{
     color: var(--text-color);
