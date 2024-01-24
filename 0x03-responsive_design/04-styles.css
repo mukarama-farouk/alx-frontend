@@ -296,7 +296,7 @@
         flex-direction: column;
         overflow: hidden;
         max-height: 0;
-        transition: 0 .2s ease-out;
+        transition: max-height .2s ease-out;
     }
     .navbar-menu{
         display: none;
